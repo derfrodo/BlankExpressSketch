@@ -12,5 +12,5 @@ app.use("/lib", express.static('node_modules/p5/lib'));
 app.use("/lib", express.static('node_modules/p5/lib/addons'));
 
 app.listen(3000, function(){
-    console.log("Express app is listening on port 3000. Visit it at http://localhost/3000 ");
+    console.log("Express app is listening on port 3000. Visit it at http://localhost:3000 ");
 });
